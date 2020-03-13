@@ -1,0 +1,52 @@
+#!/bin/sh
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	bat="cat /sys/class/power_supply/BAT?/capacity" \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -v" \
+	mkd="mkdir -pv"
+
+# Colorize commands when possible.
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	hi="highlight --out-format=ansi"
+
+# These common commands are just too long! Abbreviate them.
+alias \
+	ka="killall" \
+	P="sudo pacman -S" \
+	q="exit" \
+	snh="sudo nvim /etc/hosts" \
+	eh="nvim $XDG_CONFIG_HOME/zsh/.zsh_history" \
+	skkshu="ranger /home/skkshu/Github/skkshu.github.io/" \
+	hosts="sudo wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts -O /etc/hosts" \
+	s="neofetch" \
+	ra="ranger" \
+	n="nvim" \
+	lg="lazygit" \
+	smci="sudo make clean install" \
+	c="clear" \
+	sr="sudo ranger" \
+	jks="cd /home/skkshu/skkshu.github.io && jekyll serve" \
+	t="tldr" \
+	#ssn="sudo shutdown -h now"
+
+alias \
+	coz="nvim $XDG_CONFIG_HOME/zsh/.zshrc" \
+	con="nvim /home/skkshu/.config/nvim/init.vim" \
+
+#cd
+alias \
+	cdn="cd /home/skkshu/.config/nvim" \
+	cdc="cd /home/skkshu/.config" \
+	iu="chromium --proxy-server="http://127.0.0.1:2000" &"
+
+#rr="rofi -show run&" \
+#coa="nvim /home/skkshu/.config/alacritty/alacritty.yml" \
+#cor="nvim /home/skkshu/.config/ranger/rc.conf" \
+#coi="nvim /home/skkshu/.config/i3/config" \
+#s="neofetch --ascii_distro arch" \
