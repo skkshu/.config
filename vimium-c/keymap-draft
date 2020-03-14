@@ -1,0 +1,40 @@
+b|ba|baidu: https://www.baidu.com/s?ie=utf-8&wd=%s Baidu
+bi|bing: https://www.bing.com/search?q=%s Bing
+
+g|go|gg|google: https://www.google.com/search?q=%s Google
+l: https://www.google.com/search?q=%s&btnI I'm feeling lucky
+
+js\:|Js: javascript:\ $S; JavaScript
+w|wk|wiki:\
+  https://www.wikipedia.org/w/index.php?search=%s Wikipedia
+v.m|v\:math: vimium://math\ $S re= Calculate
+
+# More examples.
+#
+# (Vimium C supports search completion Google, Wikipedia,
+# and so on, as above, and for these.)
+#
+# y: https://www.youtube.com/results?search_query=%s YouTube
+# gm: https://www.google.com/maps?q=%s Google maps
+# d: https://duckduckgo.com/?q=%s DuckDuckGo
+# az: https://www.amazon.com/s/?field-keywords=%s Amazon
+# qw: https://www.qwant.com/?q=%s Qwant
+# Wikipedia.
+#w: http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia
+
+# Google.
+g: https://www.google.ie/search?q=%s Google
+l: https://www.google.ie/search?btnI&q=%s I'm feeling lucky...
+
+# Youtube.
+y|ytb|youtube: http://www.youtube.com/results?search_query=%s Youtube
+
+# Amazon
+a|az: http://www.amazon.co.uk/s/?field-keywords=%s Amazon
+
+# Dictionary (Merriam-Webster).
+mw: http://www.merriam-webster.com/dictionary/%s Merriam-Webster
+v|voca|vocabulary: https://www.vocabulary.com/dictionary/%s Vocabulary.com
+dic: https://www.dictionary.com/browse/ Dictionary.com
+cam|cambridge: https://dictionary.cambridge.org/us/dictionary/english/ Cambrige
+c|cls|collins: https://dictionary.cambridge.org/us/dictionary/english/%s Collins
