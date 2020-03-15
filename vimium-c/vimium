@@ -37,7 +37,7 @@ map o Vomnibar.activate
 map O Vomnibar.activateInNewTab
 map b Vomnibar.activateBookmarks
 map B Vomnibar.activateBookmarksInNewTab
-map t Vomnibar.activateTabSelection # search through ur open tabs
+map l Vomnibar.activateTabSelection # search through ur open tabs
 
 map gu Vomnibar.activateUrl # edit the selected text, if not any, edit the current url
 map gt LinkHints.activateModeToOpenVomnibar
@@ -45,19 +45,19 @@ map gs toggleViewSource
 
 map cvs toggleVomnibarStyle
 map / enterFindMode
-#map h performFind
-#map H performBackwardsFind
-#
-#map < goBack
-#map > goForward
-#
-#map , nextTab
-#map . previousTab
-map ti nextTab
-map tn previousTab
-map tu createTab
-map tmn moveTabLeft
-map tmi moveTabRight
+map h performFind
+map H performBackwardsFind
+
+map < goBack
+map > goForward
+
+map , nextTab
+map . previousTab
+#map ti nextTab
+#map tn previousTab
+#map tu createTab
+#map tmn moveTabLeft
+#map tmi moveTabRight
 
 map x removeTab
 map X restoreTab

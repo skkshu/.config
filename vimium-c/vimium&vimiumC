@@ -1,4 +1,4 @@
-# Insert your preferred key mappings here.
+# vimium
 ## Unmap
 unmap <c-e>
 unmap <c-y>
@@ -24,7 +24,35 @@ unmap <<
 unmap >>
 unmap d
 
+map F LinkHints.activateModeToOpenInNewTab
+map f LinkHints.activateMode
+map o Vomnibar.activateInNewTab
+map O Vomnibar.activate
+map b Vomnibar.activateBookmarksInNewTab
+map B Vomnibar.activateBookmarks
+map tl Vomnibar.activateTabSelection
+map T Vomnibar.activateTabSelection
+map < goBack
+map > goForward
+#map U scrollFullPageUp
+#map E scrollFullPageDown
+map n scrollLeft
+map i scrollRight
+map Q removeTab
+map ti nextTab
+map . nextTab
+map tn previousTab
+map , previousTab
+map tu createTab
+map te moveTabToNewWindow
+map = performFind
+map - performBackwardsFind
+map v enterVisualMode
+map V enterVisualLineMode
+map ' Marks.activateGotoMode
+
 ----------------------------------------------
+# vimium C
 unmapAll
 
 # navigte
@@ -92,36 +120,3 @@ map X restoreTab
 
 map m toggleMuteTab
 map ? showHelp
-map <++> 
-map <++> 
-map <++> 
-map <++> 
-
-
-
-map F LinkHints.activateModeToOpenInNewTab
-map f LinkHints.activateMode
-map o Vomnibar.activateInNewTab
-map O Vomnibar.activate
-map b Vomnibar.activateBookmarksInNewTab
-map B Vomnibar.activateBookmarks
-map tl Vomnibar.activateTabSelection
-map T Vomnibar.activateTabSelection
-map < goBack
-map > goForward
-#map U scrollFullPageUp
-#map E scrollFullPageDown
-map n scrollLeft
-map i scrollRight
-map Q removeTab
-map ti nextTab
-map . nextTab
-map tn previousTab
-map , previousTab
-map tu createTab
-map te moveTabToNewWindow
-map = performFind
-map - performBackwardsFind
-map v enterVisualMode
-map V enterVisualLineMode
-map ' Marks.activateGotoMode
