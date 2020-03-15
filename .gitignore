@@ -1,4 +1,3 @@
-alacritty
 autostart
 calibre
 chrome_backup
@@ -19,8 +18,9 @@ Kingsoft
 menus
 mimeapps.list
 netease-cloud-music
-nvim
-nvim__
+nvim/
+nvim_/
+nvim__/
 okularrc
 picom.conf
 pulse
@@ -34,6 +34,3 @@ user-dirs.locale
 xfce4
 yarn
 yay
-
-.gitignore
-.gitignore
