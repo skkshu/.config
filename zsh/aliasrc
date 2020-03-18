@@ -33,6 +33,7 @@ alias \
 	sr="sudo ranger" \
 	jks="cd /home/skkshu/skkshu.github.io && jekyll serve" \
 	t="tldr" \
+	x="startx"
 	#ssn="sudo shutdown -h now"
 
 alias \

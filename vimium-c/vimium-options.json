@@ -1,0 +1,38 @@
+{
+  "settingsVersion": "1.66",
+  "exclusionRules": [
+    {
+      "pattern": "https?://zty.pe/*",
+      "passKeys": "o"
+    },
+    {
+      "pattern": "https?://zty.pe/*",
+      "passKeys": "b"
+    },
+    {
+      "pattern": "https?://zty.pe/*",
+      "passKeys": "f"
+    },
+    {
+      "pattern": "https?://zty.pe/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Insert your preferred key mappings here.\n\n## Unmap\nunmap <c-e>\nunmap <c-y>\nunmap J\nunmap K\nunmap j\nunmap h\nunmap t\nunmap n\nunmap N\nunmap <c-n>\nunmap B\nunmap l\nunmap <c-r>\nunmap r\nunmap <a-p>\nunmap <a-f>\nunmap <a-m>\nunmap T\nunmap f\nunmap F\nunmap <<\nunmap >>\nunmap d\n\n## Map\nmap F LinkHints.activateModeToOpenInNewTab\nmap f LinkHints.activateMode\nmap R reload\nmap o Vomnibar.activateInNewTab\nmap O Vomnibar.activate\nmap b Vomnibar.activateBookmarksInNewTab\nmap B Vomnibar.activateBookmarks\nmap tl Vomnibar.activateTabSelection\nmap T Vomnibar.activateTabSelection\nmap < goBack\nmap > goForward\nmap u scrollUp\nmap e scrollDown\nmap U scrollUp count=6.5 #scrollFullPageUp\n#map U scrollFullPageUp\nmap E scrollDown count=6.5 #FullPageDown\n#map E scrollFullPageDown\nmap n scrollLeft\nmap i scrollRight\nmap Q removeTab\nmap ti nextTab\nmap . nextTab\nmap tn previousTab\nmap , previousTab\nmap tu createTab\nmap te moveTabToNewWindow\nmap tmn moveTabLeft\nmap tmi moveTabRight\nmap = performFind\nmap - performBackwardsFind\nmap k focusInput\nmap v enterVisualMode\nmap V enterVisualLineMode\nmap ' Marks.activateGotoMode",
+  "linkHintCharacters": "neioarmstzx",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 75,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "# Wikipedia.\nw: http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# Google.\ng: https://www.google.ie/search?q=%s Google\nl: https://www.google.ie/search?btnI&q=%s I'm feeling lucky...\n#gm: https://www.google.ie/maps?q=%s Google maps\n\n# Youtube.\ny: http://www.youtube.com/results?search_query=%s Youtube\n\n#DuckDuckGo\nd: https://duckduckgo.com/?ia=about&q=%s DuckDuckGo\n\n# Amazon\n# az: http://www.amazon.co.uk/s/?field-keywords=%s Amazon\n\n# Dictionary (Merriam-Webster).\ndw: http://www.merriam-webster.com/dictionary/%s Merriam-Webster\ndv: https://www.vocabulary.com/dictionary/%s Vocabulary.com\ndd: https://www.dictionary.com/browse/ Dictionary.com\ndc: https://dictionary.cambridge.org/us/dictionary/english/ Cambrige\nhttps://dictionary.cambridge.org/us/dictionary/english/%s Collins\n# Baidu\nb: https://www.baidu.com/s?wd=%s&rsv_spt=1&rsv_iqid=0xd7230f6500012878&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=&tn=baiduhome_pg&ch=&rsv_enter=1&rsv_dl=ib&inputT=2895 Baidu",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}

@@ -20,7 +20,6 @@ mimeapps.list
 netease-cloud-music
 nvim/
 okularrc
-picom.conf
 pulse
 QtProject.conf
 qv2ray
@@ -32,3 +31,4 @@ user-dirs.locale
 xfce4
 yarn
 yay
+vlc/vlc-qt-interface.conf

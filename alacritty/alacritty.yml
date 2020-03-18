@@ -200,8 +200,8 @@ schemes:
 
   colors: &st_dracula
     primary:
-      background: '0x10100E'
-      foreground: '0xC6C6C4'
+      background: '0x282a36'
+      foreground: '0xf8f8f2'
     normal:
       black:   '0x000000'
       red:     '0xff5555'
