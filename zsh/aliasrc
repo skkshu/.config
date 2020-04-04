@@ -33,12 +33,14 @@ alias \
 	sr="sudo ranger" \
 	jks="cd /home/skkshu/skkshu.github.io && jekyll serve" \
 	t="tldr" \
-	x="startx"
+	x="startx" \
+	swap="ranger ~/.config/nvim/tmp/backup" # nvim swap
 	#ssn="sudo shutdown -h now"
 
 alias \
 	coz="nvim $XDG_CONFIG_HOME/zsh/.zshrc" \
 	con="nvim /home/skkshu/.config/nvim/init.vim" \
+	cdz="cd ~/.config/zsh"
 
 #cd
 alias \
@@ -46,7 +48,6 @@ alias \
 	cdc="cd /home/skkshu/.config" \
 	iu="chromium --proxy-server="http://127.0.0.1:2000" &"
 
-#rr="rofi -show run&" \
 #coa="nvim /home/skkshu/.config/alacritty/alacritty.yml" \
 #cor="nvim /home/skkshu/.config/ranger/rc.conf" \
 #coi="nvim /home/skkshu/.config/i3/config" \

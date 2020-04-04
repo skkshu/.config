@@ -14,8 +14,7 @@ export https_proxy="http://127.0.0.1:2000"
 #export http_proxy="http://127.0.0.1:12333"
 #export https_proxy="http://127.0.0.1:12333"
 
-# ranger
-#export RANGER_LOAD_DEFAULT_RC=FALSE
+export RANGER_LOAD_DEFAULT_RC=FALSE
 
 export ZSH_DISABLE_COMPFIX=true
 
@@ -23,18 +22,16 @@ export ZSH_DISABLE_COMPFIX=true
 #ZSH_THEME="muse"
 ZSH_THEME="ys"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # use case-sensitive completion
-CASE_SENSITIVE="true"
+CASE_SENSITIVE="false"
 
 # Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+# Case-sensitive completion must be off.
+# _ and - will be interchangeable.
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -48,11 +45,8 @@ DISABLE_UPDATE_PROMPT="true"
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS=true
 
-# Uncomment the following line to disable colors in ls.
-#DISABLE_LS_COLORS="true"
-
 # Uncomment the following line to disable auto-setting terminal title.
-#DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 #ENABLE_CORRECTION="true"
@@ -63,7 +57,7 @@ COMPLETION_WAITING_DOTS="true"
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
-#DISABLE_UNTRACKED_FILES_DIRTY="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -91,8 +85,7 @@ _comp_options+=(globdots)  # Include hidden files
 
 # User configuration
 
-#export MANPATH="/usr/share/zsh/5.8/help/:$MANPATH"
-
+#export MANPATH=""
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
