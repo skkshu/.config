@@ -18,9 +18,15 @@ export RANGER_LOAD_DEFAULT_RC=FALSE
 
 export ZSH_DISABLE_COMPFIX=true
 
-#ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 #ZSH_THEME="muse"
 ZSH_THEME="ys"
+# ZSH_THEME="random"
+# ZSH_THEME="<++>"
+# ZSH_THEME="<++>"
+# ZSH_THEME="awesomepanda"
+# ZSH_THEME="wedisagree"
+
 
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
@@ -57,7 +63,7 @@ COMPLETION_WAITING_DOTS="true"
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
-DISABLE_UNTRACKED_FILES_DIRTY="true"
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -163,6 +169,10 @@ zle -N zle-line-init
 zle -N zle-keymap-select
 
 KEYTIMEOUT=1
+
+tr() {
+	mv $1 /home/skkshu/trash/
+}
 
 #ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#ff00ff,bg=cyan,bold,underline'
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#808080'

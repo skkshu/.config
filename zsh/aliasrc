@@ -21,10 +21,11 @@ alias \
 	P="sudo pacman -S" \
 	q="exit" \
 	snh="sudo nvim /etc/hosts" \
-	eh="nvim $XDG_CONFIG_HOME/zsh/.zsh_history" \
+	his="nvim $XDG_CONFIG_HOME/zsh/.zsh_history" \
 	skkshu="ranger /home/skkshu/Github/skkshu.github.io/" \
 	hosts="sudo wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts -O /etc/hosts" \
 	s="neofetch" \
+	cs="clear && neofetch" \
 	ra="ranger" \
 	n="nvim" \
 	lg="lazygit" \
