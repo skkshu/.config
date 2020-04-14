@@ -21,7 +21,7 @@ alias \
 	P="sudo pacman -S" \
 	q="exit" \
 	snh="sudo nvim /etc/hosts" \
-	his="nvim $XDG_CONFIG_HOME/zsh/.zsh_history" \
+	his="nvim /home/$USER/.cache/zsh/.zsh_history" \
 	skkshu="ranger /home/skkshu/Github/skkshu.github.io/" \
 	hosts="sudo wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts -O /etc/hosts" \
 	s="neofetch" \
@@ -40,6 +40,7 @@ alias \
 
 alias \
 	coz="nvim $XDG_CONFIG_HOME/zsh/.zshrc" \
+	coza="nvim $XDG_CONFIG_HOME/zsh/aliasrc" \
 	con="nvim /home/skkshu/.config/nvim/init.vim" \
 	cdz="cd ~/.config/zsh"
 
@@ -53,3 +54,4 @@ alias \
 #cor="nvim /home/skkshu/.config/ranger/rc.conf" \
 #coi="nvim /home/skkshu/.config/i3/config" \
 #s="neofetch --ascii_distro arch" \
+# his="nvim $XDG_CONFIG_HOME/zsh/.zsh_history" \
