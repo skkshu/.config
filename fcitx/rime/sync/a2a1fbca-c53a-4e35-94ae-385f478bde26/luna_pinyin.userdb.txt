@@ -1,0 +1,13 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb
+#@/db_type	userdb
+#@/rime_version	1.5.3
+#@/tick	8
+#@/user_id	a2a1fbca-c53a-4e35-94ae-385f478bde26
+a 	啊	c=1 d=1 t=8
+na me 	那麼	c=2 d=1.96042 t=8
+nan shou 	難受	c=1 d=1 t=7
+sha ren an 	殺人案	c=1 d=0.995012 t=8
+tong shi 	同時	c=1 d=0.99005 t=8
+wo ai ni 	我愛你	c=1 d=1 t=4
+zhen shi 	真是	c=1 d=1 t=6

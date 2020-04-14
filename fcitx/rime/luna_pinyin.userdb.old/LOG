@@ -1,0 +1,6 @@
+2020/03/14-15:46:04.504872 140311434442496 Log #235: 0 ops saved to Table #236 OK
+2020/03/14-15:46:04.504939 140311434442496 Archiving /home/skkshu/.config/fcitx/rime/luna_pinyin.userdb/000235.log: OK
+2020/03/14-15:46:04.504996 140311434442496 Table #228: 364 entries OK
+2020/03/14-15:46:04.505078 140311434442496 Table #226: 737 entries OK
+2020/03/14-15:46:04.505144 140311434442496 Archiving /home/skkshu/.config/fcitx/rime/luna_pinyin.userdb/MANIFEST-000234: OK
+2020/03/14-15:46:04.508002 140311434442496 **** Repaired leveldb /home/skkshu/.config/fcitx/rime/luna_pinyin.userdb; recovered 2 files; 23872 bytes. Some data may have been lost. ****

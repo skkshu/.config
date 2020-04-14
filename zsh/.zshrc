@@ -2,8 +2,8 @@ HISTSIZE=20000
 SAVEHIST=20000
 HISTFILE=$XDG_CONFIG_HOME/zsh/.zsh_history
 
-export http_proxy="http://127.0.0.1:2000"
-export https_proxy="http://127.0.0.1:2000"
+# export http_proxy="http://127.0.0.1:2000"
+# export https_proxy="http://127.0.0.1:2000"
 
 #export http_proxy="http://127.0.0.1:1099"
 #export https_proxy="http://127.0.0.1:1099"
