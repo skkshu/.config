@@ -175,6 +175,10 @@ tr() {
 	mv $1 /home/skkshu/trash/
 }
 
+woman() {
+	man $1 | nvim
+}
+
 #ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#ff00ff,bg=cyan,bold,underline'
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#808080'
 
