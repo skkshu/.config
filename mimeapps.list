@@ -77,6 +77,7 @@ video/x-ms-wmv=vlc.desktop
 x-scheme-handler/about=chromium.desktop
 x-scheme-handler/unknown=chromium.desktop
 x-scheme-handler/mailto=chromium.desktop
+text/markdown=code-oss.desktop
 
 [Added Associations]
 application/x-gnome-saved-search=dde-file-manager.desktop;
@@ -154,3 +155,4 @@ video/x-theora=vlc.desktop;
 video/quicktime=vlc.desktop;
 application/vnd.rn-realmedia=vlc.desktop;
 video/x-ms-wmv=vlc.desktop;
+text/markdown=code-oss.desktop;
