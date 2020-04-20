@@ -22,7 +22,7 @@ alias \
 	q="exit" \
 	snh="sudo nvim /etc/hosts" \
 	his="nvim /home/$USER/.cache/zsh/.zsh_history" \
-	skkshu="ranger /home/skkshu/Github/skkshu.github.io/" \
+	skkshu="ranger $HOME/Github/skkshu.github.io/" \
 	hosts="sudo wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts -O /etc/hosts" \
 	s="neofetch" \
 	cs="clear && neofetch" \
@@ -32,26 +32,27 @@ alias \
 	smci="sudo make clean install" \
 	c="clear" \
 	sr="sudo ranger" \
-	jks="cd /home/skkshu/skkshu.github.io && jekyll serve" \
+	jks="cd $HOME/skkshu.github.io && jekyll serve" \
 	t="tldr" \
 	x="startx" \
-	swap="ranger ~/.config/nvim/tmp/backup" # nvim swap
+	swap="ranger $XDG_CONFIG_HOME/nvim/tmp/backup" # nvim swap
 	#ssn="sudo shutdown -h now"
 
 alias \
 	coz="nvim $XDG_CONFIG_HOME/zsh/.zshrc" \
 	coza="nvim $XDG_CONFIG_HOME/zsh/aliasrc" \
-	con="nvim /home/skkshu/.config/nvim/init.vim" \
-	cdz="cd ~/.config/zsh"
+	con="nvim $XDG_CONFIG_HOME/nvim/init.vim" \
+	cor="nvim $XDG_CONFIG_HOME/ranger/rc.conf" \
+	cdz="cd $XDG_CONFIG_HOME/zsh"
 
 #cd
 alias \
-	cdn="cd /home/skkshu/.config/nvim" \
-	cdc="cd /home/skkshu/.config" \
+	cdn="cd $XDG_CONFIG_HOME/nvim" \
+	cdc="cd $XDG_CONFIG_HOME" \
 	iu="chromium --proxy-server="http://127.0.0.1:2000" &"
 
-#coa="nvim /home/skkshu/.config/alacritty/alacritty.yml" \
-#cor="nvim /home/skkshu/.config/ranger/rc.conf" \
-#coi="nvim /home/skkshu/.config/i3/config" \
+#coa="nvim $XDG_CONFIG_HOME/alacritty/alacritty.yml" \
+#cor="nvim $XDG_CONFIG_HOME/ranger/rc.conf" \
+#coi="nvim $XDG_CONFIG_HOME/i3/config" \
 #s="neofetch --ascii_distro arch" \
 # his="nvim $XDG_CONFIG_HOME/zsh/.zsh_history" \
