@@ -21,7 +21,7 @@ alias \
 	P="sudo pacman -S" \
 	q="exit" \
 	snh="sudo nvim /etc/hosts" \
-	his="nvim /home/$USER/.cache/zsh/.zsh_history" \
+	his="nvim /home/$USER/.cache/zsh/history.sh" \
 	skkshu="ranger $HOME/Github/skkshu.github.io/" \
 	hosts="sudo wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts -O /etc/hosts" \
 	s="neofetch" \

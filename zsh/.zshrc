@@ -1,7 +1,7 @@
 HISTSIZE=20000
 SAVEHIST=20000
 # HISTFILE=$XDG_CONFIG_HOME/zsh/.zsh_history
-HISTFILE=/home/$USER/.cache/zsh/.zsh_history
+HISTFILE=/home/$USER/.cache/zsh/history.sh
 
 export http_proxy="http://127.0.0.1:2000"
 export https_proxy="http://127.0.0.1:2000"
@@ -86,10 +86,14 @@ plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh #if I put this line after vi mode, or do not have this line, the shell will say: `/path/to/.zshrc:bindkey:157: no such keymap `menuselect``
 
-
+# Basic auto/tab complete:
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
 _comp_options+=(globdots)  # Include hidden files
 
-
+# edit line in vim with ctrl+e
 # User configuration
 
 #export MANPATH=""
@@ -114,10 +118,12 @@ _comp_options+=(globdots)  # Include hidden files
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source $XDG_CONFIG_HOME/zsh/aliasrc
+[ -f "$XDG_CONFIG_HOME/zsh/aliasrc" ] && source "$XDG_CONFIG_HOME/zsh/aliasrc"
 
-#Zsh vi mode
+# vi mode
 bindkey -v
+KEYTIMEOUT=1 # recommend to set '1' if you're using vi mode
+
 bindkey -M vicmd "k" vi-insert
 bindkey -M vicmd "K" vi-insert-bol
 bindkey -M vicmd "n" vi-backward-char
@@ -169,13 +175,14 @@ precmd_functions+=(_fix_cursor)
 zle -N zle-line-init
 zle -N zle-keymap-select
 
-KEYTIMEOUT=1
+autoload edit-command-line; zle -N edit-command-line
+bindkey '^e' edit-command-line
 
 tr() {
 	mv $1 /home/skkshu/trash/
 }
 
-woman() {
+ma() {
 	man $1 | nvim
 }
 
