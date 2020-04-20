@@ -8,6 +8,7 @@ configstore
 dconf
 deepin
 fontconfig
+fcitx
 tencent-qq
 gconf
 google-chrome
