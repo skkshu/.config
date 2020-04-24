@@ -6,7 +6,8 @@ alias \
 	cp="cp -iv" \
 	mv="mv -iv" \
 	rm="rm -v" \
-	mkd="mkdir -pv"
+	mkd="mkdir -pv" \
+	sudo="sudo -E"
 
 # Colorize commands when possible.
 alias \
@@ -31,11 +32,13 @@ alias \
 	lg="lazygit" \
 	smci="sudo make clean install" \
 	c="clear" \
-	sr="sudo ranger" \
+	sr="sudo -E ranger" \
 	jks="cd $HOME/skkshu.github.io && jekyll serve" \
 	t="tldr" \
 	x="startx" \
-	swap="ranger $XDG_CONFIG_HOME/nvim/tmp/backup" # nvim swap
+	swap="ranger $XDG_CONFIG_HOME/nvim/tmp/backup" \
+	gc="git clone" \
+	gC="git config credential.helper store"
 	#ssn="sudo shutdown -h now"
 
 alias \
