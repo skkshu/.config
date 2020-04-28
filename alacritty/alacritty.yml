@@ -59,7 +59,7 @@ window:
   startup_mode: Windowed
 
   # Window title
-  title: Alacritty
+  title: alacritty
 
   # Window class (Linux only):
   #class:
@@ -83,9 +83,6 @@ scrolling:
   # scrollback is enabled (history > 0).
   multiplier: 3
 
-  # Scroll to the bottom when new text is written to the terminal.
-  auto_scroll: true
-
 # Spaces per Tab (changes require restart)
 #
 # This setting defines the width of a tab in cells.
@@ -93,7 +90,6 @@ scrolling:
 # Some applications, like Emacs, rely on knowing about the width of a tab.
 # To prevent unexpected behavior in these applications, it's also required to
 # change the `it` value in terminfo when altering this setting.
-tabspaces: 2
 
 choices:
   font: &nerd-fonts-source-code-pro-mono
@@ -109,7 +105,7 @@ choices:
     bold_italic:
       family: SauceCodePro Nerd Font Mono
       style: Bold Italic
-    size: 14.0
+    size: 10.0
     offset:
       x: 0 #letter spacing
       y: 0 #line spacing
@@ -130,7 +126,7 @@ choices:
     bold_italic:
       family: Jetbrains Mono Medium
       style: Bold Italic
-    size: 16.0
+    size: 9.0
     offset:
       x: 0 #letter spacing
       y: 1 #line spacing
@@ -151,10 +147,10 @@ choices:
     bold_italic:
       family: Jetbrains Mono
       style: Bold Italic
-    size: 16.0
+    size: 9.0
     offset:
       x: 0 #letter spacing
-      y: 1 #line spacing
+      y: 0 #line spacing
     glyph_offset:
       x: 0
       y: 0
@@ -167,9 +163,9 @@ choices:
 
   ## If the bold, italic, bold_italic family is not specified,it will fall back to the value specified for the normal font.
 
-#font: *jetbrains-mono
-font: *nerd-fonts-source-code-pro-mono
-#font: *jetbrains-mono-medium
+font: *jetbrains-mono
+# font: *nerd-fonts-source-code-pro-mono
+# font: *jetbrains-mono-medium
 
 schemes:
   colors: &bloodmoon
