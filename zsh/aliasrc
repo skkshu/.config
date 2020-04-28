@@ -38,7 +38,8 @@ alias \
 	x="startx" \
 	swap="ranger $XDG_CONFIG_HOME/nvim/tmp/backup" \
 	gc="git clone" \
-	gC="git config credential.helper store"
+	gC="git config credential.helper store" \
+	po="poweroff"
 	#ssn="sudo shutdown -h now"
 
 alias \
