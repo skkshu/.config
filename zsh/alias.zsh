@@ -44,15 +44,17 @@ alias \
 
 alias \
 	coz="nvim $XDG_CONFIG_HOME/zsh/.zshrc" \
-	coza="nvim $XDG_CONFIG_HOME/zsh/aliasrc" \
-	con="nvim $XDG_CONFIG_HOME/nvim/init.vim" \
+	coza="nvim $XDG_CONFIG_HOME/zsh/alias.zsh" \
 	cor="nvim $XDG_CONFIG_HOME/ranger/rc.conf" \
-	cdz="cd $XDG_CONFIG_HOME/zsh"
+	con="nvim $XDG_CONFIG_HOME/nvim/init.vim" \
+	conh="nvim $XDG_CONFIG_HOME/nvim/hi.vim" \
+	conp="nvim $XDG_CONFIG_HOME/nvim/plug.vim" \
 
 #cd
 alias \
 	cdn="cd $XDG_CONFIG_HOME/nvim" \
 	cdc="cd $XDG_CONFIG_HOME" \
+	cdz="cd $XDG_CONFIG_HOME/zsh" \
 	iu="chromium --proxy-server="http://127.0.0.1:2000" &"
 
 #coa="nvim $XDG_CONFIG_HOME/alacritty/alacritty.yml" \

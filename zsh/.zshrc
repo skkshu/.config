@@ -10,7 +10,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#808080'
 source $XDG_CONFIG_HOME/zsh/zsh.zsh
 source $ZSH/oh-my-zsh.sh #if I put this line after vi mode, or do not have this line, the shell will say: `/path/to/.zshrc:bindkey:157: no such keymap `menuselect``
 source $XDG_CONFIG_HOME/zsh/vi-mode.zsh
-source $XDG_CONFIG_HOME/zsh/aliasrc
+source $XDG_CONFIG_HOME/zsh/alias.zsh
 source $XDG_CONFIG_HOME/zsh/fixed.zsh
 
 #[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx
