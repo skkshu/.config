@@ -1,10 +1,10 @@
 export RANGER_LOAD_DEFAULT_RC=FALSE
 
 # Basic auto/tab complete:
-autoload -U compinit
-zstyle ':completion:*' menu select
-zmodload zsh/complist
-compinit
+# autoload -U compinit
+# zstyle ':completion:*' menu select
+# zmodload zsh/complist
+# compinit
 _comp_options+=(globdots)  # Include hidden files
 
 # edit line in vim with ctrl+e

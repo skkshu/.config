@@ -14,3 +14,4 @@ source $XDG_CONFIG_HOME/zsh/alias.zsh
 source $XDG_CONFIG_HOME/zsh/fixed.zsh
 
 #[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx
+# export PS1=" $PS1"'[$(t | wc -l | sed -e"s/ *//")]'

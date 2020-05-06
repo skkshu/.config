@@ -22,8 +22,8 @@ alias \
 	P="sudo pacman -S" \
 	q="exit" \
 	snh="sudo nvim /etc/hosts" \
-	his="nvim $HOME/.cache/zsh/history.sh" \
-	skkshu="ranger $HOME/Github/skkshu.github.io/" \
+	his="nvim /home/$USER/.cache/zsh/history.sh" \
+	skkshu="ranger /home/$USER/Github/skkshu.github.io/" \
 	hosts="sudo wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts -O /etc/hosts" \
 	s="neofetch" \
 	cs="clear && neofetch" \
@@ -33,14 +33,17 @@ alias \
 	smci="sudo make clean install" \
 	c="clear" \
 	sr="sudo -E ranger" \
-	jks="cd $HOME/skkshu.github.io && jekyll serve" \
-	t="tldr" \
+	jks="cd /home/$USER/skkshu.github.io && jekyll serve" \
+	tl="tldr" \
 	x="startx" \
 	swap="ranger $XDG_CONFIG_HOME/nvim/tmp/backup" \
 	gc="git clone" \
 	gC="git config credential.helper store" \
 	po="poweroff"
 	#ssn="sudo shutdown -h now"
+
+alias t='python /home/$USER/.tasks/t.py --task-dir ~/.tasks --list todo.txt'
+# alias t='python /home/$USER/.tasks/t.py --task-dir ~/.tasks --list todo.txt --delete-if-empty'
 
 alias \
 	coz="nvim $XDG_CONFIG_HOME/zsh/.zshrc" \
@@ -55,7 +58,7 @@ alias \
 	cdn="cd $XDG_CONFIG_HOME/nvim" \
 	cdc="cd $XDG_CONFIG_HOME" \
 	cdz="cd $XDG_CONFIG_HOME/zsh" \
-	iu="chromium --proxy-server="http://127.0.0.1:2000" &"
+	# iu="chromium --proxy-server="http://127.0.0.1:2000" &"
 
 #coa="nvim $XDG_CONFIG_HOME/alacritty/alacritty.yml" \
 #cor="nvim $XDG_CONFIG_HOME/ranger/rc.conf" \
