@@ -11,7 +11,7 @@ _comp_options+=(globdots)  # Include hidden files
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
-ma() {
+woman() {
 	man $1 | nvim
 }
 

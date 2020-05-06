@@ -52,6 +52,8 @@ alias \
 	con="nvim $XDG_CONFIG_HOME/nvim/init.vim" \
 	conh="nvim $XDG_CONFIG_HOME/nvim/hi.vim" \
 	conp="nvim $XDG_CONFIG_HOME/nvim/plug.vim" \
+	cod="ranger /usr/share/dwmbar" \
+	cop="nvim $XDG_CONFIG_HOME/picom/picom.conf"
 
 #cd
 alias \
