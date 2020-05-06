@@ -1,0 +1,93 @@
+#command
+
+# navigate
+u         back-line
+e         forw-line
+n         left-scroll
+i         right-scroll
+
+
+^U        back-screen
+^E        forw-screen
+
+w         back-window
+r         forw-window
+
+U         back-scroll
+E         forw-scroll
+
+# search
+h         repeat-search
+H         reverse-search
+
+# vim-orig
+j         forw-line
+k         back-line
+J         forw-line-force
+K         back-line-force
+
+F         forw-forever
+
+gg         goto-line
+G         goto-end
+
+p         percent
+%         percent
+
+\e{       no-scroll
+\e}       end-scroll
+{         forw-bracket {}
+}         back-bracket {}
+(         forw-bracket ()
+)         back-bracket ()
+[         forw-bracket []
+]         back-bracket []
+\eG       goto-end-buffered
+
+=         status
+^G        status
+
+/         forw-search
+?         back-search
+\e/       forw-search *
+\e?       back-search *
+
+&         filter
+m         set-mark
+M         set-mark-bottom
+\em       clear-mark
+'         goto-mark
+^X^X      goto-mark
+:e        examine
+^X^V      examine
+:n        next-file
+:p        prev-file
+t         next-tag
+T         prev-tag
+:x        index-file
+:d        remove-file
+-         toggle-option
+:t        toggle-option t
+s         toggle-option o
+_         display-option
+|         pipe
+v         visual
+!         shell
++         firstcmd
+:h        help
+V         version
+0         digit
+1         digit
+2         digit
+3         digit
+4         digit
+5         digit
+6         digit
+7         digit
+8         digit
+9         digit
+q         quit
+Q         quit
+:q        quit
+:Q        quit
+ZZ        quit
