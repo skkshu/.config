@@ -39,7 +39,8 @@ alias \
 	swap="ranger $XDG_CONFIG_HOME/nvim/tmp/backup" \
 	gc="git clone" \
 	gC="git config credential.helper store" \
-	po="poweroff"
+	po="poweroff" \
+	pe="printenv"
 	#ssn="sudo shutdown -h now"
 
 alias t='python /home/$USER/.tasks/t.py --task-dir ~/.tasks --list todo.txt'
@@ -53,7 +54,8 @@ alias \
 	conh="nvim $XDG_CONFIG_HOME/nvim/hi.vim" \
 	conp="nvim $XDG_CONFIG_HOME/nvim/plug.vim" \
 	cod="ranger /usr/share/dwmbar" \
-	cop="nvim $XDG_CONFIG_HOME/picom/picom.conf"
+	cop="nvim $XDG_CONFIG_HOME/picom/picom.conf" \
+	coze="nvim $XDG_CONFIG_HOME/zsh/.zshenv"
 
 #cd
 alias \

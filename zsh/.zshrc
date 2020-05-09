@@ -11,9 +11,10 @@ source $XDG_CONFIG_HOME/zsh/zsh.zsh
 source $ZSH/oh-my-zsh.sh #if I put this line after vi mode, or do not have this line, the shell will say: `/path/to/.zshrc:bindkey:157: no such keymap `menuselect``
 source $XDG_CONFIG_HOME/zsh/vi-mode.zsh
 source $XDG_CONFIG_HOME/zsh/alias.zsh
-source $XDG_CONFIG_HOME/zsh/fixed.zsh
 
-export DWMBARMODULEDIR=/home/$USER/Suckless/scripts/dwmbar
+tf(){
+	t -f $1
+}
 
 #[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx
 # export PS1=" $PS1"'[$(t | wc -l | sed -e"s/ *//")]'
