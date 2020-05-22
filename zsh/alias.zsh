@@ -64,6 +64,12 @@ alias \
 	cdz="cd $XDG_CONFIG_HOME/zsh" \
 	# iu="chromium --proxy-server="http://127.0.0.1:2000" &"
 
+alias \
+	tips='nvim /home/$USER/Notes/tips.md' \
+	vtips='nvim /home/$USER/Notes/vim-tips.md' \
+	eng='nvim /home/$USER/Notes/English/voca.md' \
+	plan='nvim /home/$USER/plan.md'
+
 #coa="nvim $XDG_CONFIG_HOME/alacritty/alacritty.yml" \
 #cor="nvim $XDG_CONFIG_HOME/ranger/rc.conf" \
 #coi="nvim $XDG_CONFIG_HOME/i3/config" \
