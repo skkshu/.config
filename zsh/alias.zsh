@@ -68,7 +68,8 @@ alias \
 	tips='nvim /home/$USER/Notes/tips.md' \
 	vtips='nvim /home/$USER/Notes/vim-tips.md' \
 	eng='nvim /home/$USER/Notes/English/voca.md' \
-	plan='nvim /home/$USER/plan.md'
+	plan='nvim /home/$USER/plan.md' \
+	pi='nvim /home/skkshu/.config/picom/picom.conf'
 
 #coa="nvim $XDG_CONFIG_HOME/alacritty/alacritty.yml" \
 #cor="nvim $XDG_CONFIG_HOME/ranger/rc.conf" \
