@@ -76,3 +76,4 @@ alias \
 #coi="nvim $XDG_CONFIG_HOME/i3/config" \
 #s="neofetch --ascii_distro arch" \
 # his="nvim $XDG_CONFIG_HOME/zsh/.zsh_history" \
+alias cj='nvim /home/skkshu/a-kaoyan/cj.md'
