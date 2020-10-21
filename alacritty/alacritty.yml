@@ -184,9 +184,9 @@ choices:
 
   ## If the bold, italic, bold_italic family is not specified,it will fall back to the value specified for the normal font.
 
-font: *jetbrains-mono
+# font: *jetbrains-mono
 # font: *nerd-fonts-source-code-pro-mono
-# font: *nerd-fonts-source-code-pro-medium
+font: *nerd-fonts-source-code-pro-medium
 # font: *jetbrains-mono-medium
 
 schemes:
@@ -473,7 +473,8 @@ background_opacity: 0.95
   #save_to_clipboard: false
 
 # Allow terminal applications to change Alacritty's window title.
-dynamic_title: true
+# dynamic_title: true // deprecated
+window.dynamic_title: true
 
 cursor:
   # Cursor style

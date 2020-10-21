@@ -1,6 +1,6 @@
 HISTSIZE=20000
 SAVEHIST=20000
-HISTFILE=/home/$USER/.cache/zsh/history.sh
+HISTFILE=/home/skkshu/.cache/zsh/history.sh
 
 export ZSH_DISABLE_COMPFIX=true
 

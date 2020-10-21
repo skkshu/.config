@@ -2,23 +2,23 @@
 bindkey -v
 KEYTIMEOUT=1 # recommend to set '1' if you're using vi mode
 
-bindkey -M vicmd "k" vi-insert
-bindkey -M vicmd "K" vi-insert-bol
-bindkey -M vicmd "n" vi-backward-char
-bindkey -M vicmd "i" vi-forward-char
-bindkey -M vicmd "N" vi-beginning-of-line
-bindkey -M vicmd "I" vi-end-of-line
-bindkey -M vicmd "e" down-line-or-history
-bindkey -M vicmd "u" up-line-or-history
-bindkey -M vicmd "l" undo
+bindkey -M vicmd "i" vi-insert
+bindkey -M vicmd "I" vi-insert-bol
+bindkey -M vicmd "h" vi-backward-char
+bindkey -M vicmd "l" vi-forward-char
+bindkey -M vicmd "H" vi-beginning-of-line
+bindkey -M vicmd "L" vi-end-of-line
+bindkey -M vicmd "j" down-line-or-history
+bindkey -M vicmd "k" up-line-or-history
+bindkey -M vicmd "u" undo
 bindkey -M vicmd "=" vi-repeat-search
-bindkey -M vicmd "h" vi-forward-word-end
+# bindkey -M vicmd "e" vi-forward-word-end
 
 # Use vim keys in tab complete menu:
-bindkey -M menuselect 'n' vi-backward-char
-bindkey -M menuselect 'u' vi-up-line-or-history
-bindkey -M menuselect 'i' vi-forward-char
-bindkey -M menuselect 'e' vi-down-line-or-history
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 function zle-line-init zle-keymap-select {
 	RPS1="${${KEYMAP/vicmd/-- NOR --}/(main|viins)/-- INS --}"
