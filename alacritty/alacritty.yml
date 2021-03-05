@@ -56,7 +56,8 @@ window:
   #
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
-  startup_mode: Windowed
+  # startup_mode: Windowed
+  startup_mode: Fullscreen
 
   # Window title
   title: alacritty
@@ -712,8 +713,8 @@ key_bindings:
 - { key: Insert,   mods: Shift,         action: PasteSelection   }
 - { key: Key0,     mods: Control,       action: ResetFontSize    }
 - { key: Equals,   mods: Control,       action: IncreaseFontSize }
-- { key: Add,      mods: Control,       action: IncreaseFontSize }
-- { key: Subtract, mods: Control,       action: DecreaseFontSize }
+# - { key: Add,      mods: Control,       action: IncreaseFontSize }
+# - { key: Subtract, mods: Control,       action: DecreaseFontSize }
 - { key: Minus,    mods: Control,       action: DecreaseFontSize }
 #- { key: Return,   mods: Alt,           action: ToggleFullscreen }
 - { key: U, mods: Alt|Control,          action: ScrollPageUp}

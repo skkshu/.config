@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 50 50"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SauceCodePro Nerd Font" font-size="11" font-weight="400" font-style="normal" 
+>
+<image x="0" y="0" width="50" height="50" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAKkElEQVRoge2az3Mjx3XHv+919/wAQABc/lqtuBYrprQWoshls3KwfaGjHFM55pBKXC7fc3YuOfov8Dn/SrxOKhVVJSypSiXKVljWrnZFEgR/AAMCg5npfs8HkCtySa6WEpe66KH6MIOZ7vfp9/r16+4BvpPv5Dt5kdArqJOn9a7T2trwXP0bGzMKPFQACkBustGbAjFra2s8GAx4NBqZZrNpiqIw3ntWVQIAIlJrrcRxHLIsC/V6PbRaLdnY2BAA4Zsq8E1ACFg3q6tPzWAwcFEUxdbaqCyNc85bb4yzIZg4jiMi0slkUnljgg2hqirroyhU3vuyLMui1WpVW1vLAXgYMLXWrYGY1dVVCyAOIaQAEhGptdvz919//f57Sa3xU2PMPcM8R0QtAFDVQRA5CCFs5/nov7effv4f/f7+E2YeA5gYY3IAxdbWlsfXsNB1QajT6bherxc1m82a977uPTffeuvB39yZn/+Vs+4vQUSkgNLFyhXA6X9Q1cpXHx8d9P79j3/89HfWSmatHWVZNl5YWCg3NzcrXMM61wExq6urtizLmveuYUzZuv/GX/z13aV7/xJF8Y9AAF2zXxQKKDApiw/2utu/ffL4T/8bQjSwtjqOomh8HeuYl4VYWVlx4zE3jQktIl54++13f7G49NpvrLX3pv1Bp6pBVaGKk6IXr59VO33PGvPazEzr7xozs8Xhwd5nRII8NzQ/3/T9fv80yn1jELOysuKMMU0RnY0ivvvOOz/811a79Usm5tOHThWGnrb5fPtnrk+fBUAnRiQiTpP4J7Ozs3cPD3sfiahEEWur1XopmK8C4ZWVlWgysTMiOmsMFt/5qx/9ul5v/D0Rn+gkEPlSsevIqaVORg8AgoviB61W+26v1/2gqhCqysiJZeRFMC8E6XQ6bjweN6yVFrMuff/NH/xzu9X+xymEIkg4AfhaEfMU58TdBEwAEcG5+M04Tqp+v7vF7KsQgty/f9/3er0rx8uVIOvr6/bo6Chl5lYItHj37vLPXrv3+q+JDQFACHLGjW5AFFABwAQiQpqmP/Ze/jAcHu9HkS1V1b/77rvh0aNHl2YEV4EwAFdVVcsTzYP07oMHb/+bs27uvCVuVqZRTMFEICKq1dMH290vHgagkqqqsiwrrnIxvqQ+rK2tGe99TcQ1yKO9svzG30Y2+j4ASFCo6Jdj94aLikLCtNOdS9743vLKe+TRFnEN731tbW3t0s6/DIS73a4FkDKjCejswuK9fwARROSZNV5lCRKgIiAAC4tL/wTo7FQXpCe6XdD7wo21tTXDzIlqVGcOzVar+eZ0rgDkFiCewYTpuI5MtNBqNd9kDs2pTpxcZhX7/I3BYMDMHBOFugg1Fxdf/zlAENHpAL8lCaogURAR5udfey/Lhp9aG+pEnA0Gg/Hzzz8PwsPh0NZqtVhEakrcmGnO/BDQZ9a4TVEJIGPQbDZ/rEQNVakxczwcDi2ACmfWNM+51jqnaerKkmLApgytG2PnFICI3JpbfTlWBArAONtmaB2waVlSnKapA9bP6X7uotPZ48nEOiLEABJV1IjIQRWiAXrLP5EwDcdgq4oagIQI8WRiXaezd073c65VliUliTeq6gIQxy6ZJSLSk7B42/KsRSLEcdKeVHlsDJy1YsryfKp9DsR7T957AzhLpC5Ok9ZZU38bIiIgIkRR1CqKiQtKFqgMcDUIAYBqQoBnQLkKVXH657cFcipVCIWqsioYSAjwwOnaAZeEXwCAVQJAxWg8PgX4tkBOs+MiH+UwIEBpynBeLgfxpCBVYaiIeGa20yz1lep8iRCIAJVpiooAhdKlWpwFUQBgLgRwAZAApeB9mUdRPEMgiN7ehAgAhqeeU3o/JqUAQiDiABRyku8+gzofwqxVa21gDl5ZKyUtsyz7TBVgY/DKMsUrCrOBKjAcDv6kpKWyVszBW2uDtfacZc6BtFotmUxcEJHKAAUDRW9v9wNAwYbPrLtvp7CZLuB63d0PGSgMUIhINZm40Gq15EqQjY0NTVNfqbpCVScA8vF41C3LakRgMPGtzerEDCJGUVaj8XjUBZCr6kTVFWnqq42NjastAkDyPK9CQEFEuYgeK9Hx7s72+wDgoujWQCIXAQB2d7bfV6JjET0mojwEFHmen8uzLgWp1+shSbTwnkfMPCTVbH9/9+NJnmdEBGPMK4cwxoCIkOf54GB/92NSzZh56D2PkkSLer0evgoEy8vLQVULZn8sokNVDAD0P3/6+D9VVeM4AfGrczGepiNQVX3y9PF/AeirYiCiQ2Z/rKrF8vLyhU2ICwuUR48eod1uq6o6ZkQARUSIy6IIxBo1Gs171hr4qrrZzQdMd1DSWgoiwu7OFxuHB/sfEGEXwC6z7AM4Yubhhx9+6PHcuv2ypa7Mzc0FY8xYVfsAHQnoANCDnZ2d/zs6PPwMYKS1OojpxjJdYkZaqwFgHB0efrbb3d4A9GDaNh2pat8YM56bm7vgVsAVuyg7Oztot9vKzEaEGaqWmS0BZjAY9JMkbqdp2nbOIYhAwjc73rDOoZZOLdHvHz56/PjR7wm6TcQ7KroL8J611Adw/Mknn1ywxpUgALTf78O5e8IciJkYAANqAKJ+/+hAVblRn1m01pE1FkECRK438xtjkCY1OBcBCt3d2f7oi6dP/gfANqA7AO0QcVeEDiaTNNve/v8SV2xqv2inUVZWFuD9BMyqIZw9MGAdj7PB8Xg8TJPkThRFsXMRrLWgZ3ONXBhCRACzgXMR4jhBHMcgJuT5OPv8yeP3+0e9jwDeAWQHoG0RdI2RHnPIZmejSa/Xq65S9qvOAWh1dTXK87zBzG1hXmShJSIsCbBEqgsAzc3emX9rcfHuD+I4rp99WVWhJ1aaTnDnmyuKYrS3t/uHo8P9TwE9UKIeA11VdIW1yyJ7ItJP0/R4a2urxAv2Zl/mQINXV1fdaDSacc41Rcy8MbIgQgsAzSvpHIA7pGimtdribHv2e41Gc9E6l1pr3dmKvPeVr6r8+DjbO+offZ6Px3tKyAAcktIBoPvM2guBe8xhv6qqrF6vD7e2ti5MgF8H5BnMZDKpO+dmROSOqt4BzB1A7wCYVaAJ1RmA6gASInUAuyiOUwAoiyIHpFKlCsAE0BGIhgRkAI4AOgTCIREdMvNhVVXDJElGLwNxHRAA4E6nYyeTSVqWZcNaO1NVaDNTkwhtITRZtaGqJyCIVckqTUM8KYRIvSoKABMiGgnRMSsyVfRFNHMOfe/9MIqi4yRJ8s3NTf8yENcFAQBaW1uz3W7XhlCrA77mnG+I8IwxWlfluqrWiCgGEKuqBfRkriIhIg+gUNWCiMZEMgqBRswyrCp7DNixMePR0tKS39jYuDTM3hTIqZhOp2MODg4c0UzNGMREkgKaAkiYKQoUnFG2qjg5Z4cGEm/UVCJaApgAlKtyHgIK1eF4bm6u2tzcDLiFU91LgbIsM9ba2BgTFUXhnHM2hGBCsFajkw8GSlJjvDfGhKqqfBzHVQih9N4XzWYzfF2AmwI5FQbWudPZ4/F4zEVRcLPZNFVVsYgQADCzOucky7IQx7HUajXZ3FwU4KHgBj7neBXfotD5sn5y+yFwcT37nTwvfwaK/Z/h1N4ZhQAAAABJRU5ErkJggg==" />
+</g>
+
+<g fill="none" stroke="#5a5b62" stroke-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1,0,0,1,0,1.5)"
+font-family="SauceCodePro Nerd Font" font-size="11" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#5a5b62" stroke-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(2.38095,0,0,2.38095,0,1.5)"
+font-family="SauceCodePro Nerd Font" font-size="11" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" vector-effect="none" points="7.5,11.5 10.5,8.5 13.5,11.5 " />
+</g>
+
+<g fill="none" stroke="#5a5b62" stroke-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1,0,0,1,0,1.5)"
+font-family="SauceCodePro Nerd Font" font-size="11" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#7e7f83" stroke-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1,0,0,1,0,0)"
+font-family="SauceCodePro Nerd Font" font-size="11" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#7e7f83" stroke-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(2.38095,0,0,2.38095,0,0)"
+font-family="SauceCodePro Nerd Font" font-size="11" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" vector-effect="none" points="7.5,11.5 10.5,8.5 13.5,11.5 " />
+</g>
+
+<g fill="none" stroke="#7e7f83" stroke-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1,0,0,1,0,0)"
+font-family="SauceCodePro Nerd Font" font-size="11" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SauceCodePro Nerd Font" font-size="11" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

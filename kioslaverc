@@ -1,0 +1,6 @@
+[Proxy Settings]
+ProxyType=1
+ftpProxy=http://127.0.0.1 2000
+httpProxy=http://127.0.0.1 2000
+httpsProxy=http://127.0.0.1 2000
+socksProxy=socks://127.0.0.1 1200

@@ -1,0 +1,6 @@
+[ETD2303:00 04F3:3083 Touchpad]
+middleEmulation=true
+tapToClick=true
+
+[ETPS/2 Elantech Touchpad]
+tapToClick=true
