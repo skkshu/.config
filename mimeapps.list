@@ -79,6 +79,8 @@ x-scheme-handler/unknown=chromium.desktop
 x-scheme-handler/mailto=chromium.desktop
 text/markdown=code-oss.desktop
 x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop
+application/pdf=FoxitReader.desktop
+application/ppdf=FoxitReader.desktop
 
 [Added Associations]
 application/x-gnome-saved-search=dde-file-manager.desktop;

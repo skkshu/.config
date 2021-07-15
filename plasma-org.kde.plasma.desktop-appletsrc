@@ -7,6 +7,8 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][179]
+ItemGeometries-1920x1080=Applet-199:816,336,304,304,0;
+ItemGeometriesHorizontal=Applet-199:816,336,304,304,0;
 activityId=a3321162-f853-4c71-899c-da57cfc35657
 formfactor=0
 immutability=1
@@ -15,14 +17,34 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][179][Applets][199]
+immutability=1
+plugin=org.kde.plasma.analogclock
+
+[Containments][179][Applets][199][Configuration]
+PreloadWeight=0
+
+[Containments][179][Applets][199][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][179][Applets][199][Configuration][General]
+showSecondHand=true
+
+[Containments][179][ConfigDialog]
+DialogHeight=998
+DialogWidth=1920
+
 [Containments][179][Configuration]
 PreloadWeight=0
 
 [Containments][179][General]
+positions=3,16,desktop:/Sintering with H_省略_on Ores_A Review_HOLMES Ralph J.pdf,2,2,desktop:/铁酸钙粘结相流动性及其对烧结矿强度影响的试验研究.pdf,0,0,desktop:/烧结-冷却-余热回收系统热力学分析.pdf,0,1,desktop:/基于相图分析铁酸钙流动性及烧结矿强度.pdf,0,2,desktop:/铁矿粉烧结复合铁酸钙形成机理研究.pdf,0,3,desktop:/磁铁矿的无碳烧结.pdf,2,6,desktop:/钒钛磁铁矿烧结热力学分析.pdf,0,4,desktop:/译文_Hot Airflow Ignition with Microwave Heating for Iron Ore.docx,0,5,desktop:/Hot Airflow Ignition with Microwave Heating for Iron Ore.pdf,1,6
 sortMode=-1
 
 [Containments][179][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
+SlidePaths=/usr/share/wallpapers
 
 [Containments][180]
 activityId=
@@ -38,7 +60,11 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][180][Applets][181][Configuration]
-PreloadWeight=65
+PreloadWeight=73
+
+[Containments][180][Applets][181][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][180][Applets][181][Configuration][General]
 favoritesPortedToKAstats=true
@@ -47,7 +73,7 @@ favoritesPortedToKAstats=true
 global=Alt+F1
 
 [Containments][180][Applets][181][Shortcuts]
-global=Alt+F1
+global=
 
 [Containments][180][Applets][182]
 immutability=1
@@ -64,14 +90,14 @@ plugin=org.kde.plasma.icontasks
 PreloadWeight=0
 
 [Containments][180][Applets][183][Configuration][General]
-launchers=applications:systemsettings.desktop,applications:org.kde.discover.desktop,preferred://filemanager,applications:chromium.desktop
+launchers=applications:google-chrome.desktop
 
 [Containments][180][Applets][184]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][180][Applets][184][Configuration]
-PreloadWeight=89
+PreloadWeight=53
 SystrayContainmentId=185
 
 [Containments][180][Applets][194]
@@ -92,11 +118,31 @@ plugin=org.kde.plasma.showdesktop
 [Containments][180][Applets][195][Configuration]
 PreloadWeight=0
 
+[Containments][180][Applets][200]
+immutability=1
+plugin=org.kde.netspeedWidget
+
+[Containments][180][Applets][200][Configuration]
+PreloadWeight=0
+
+[Containments][180][Applets][200][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][180][Applets][200][Configuration][General]
+fontSize=45
+speedLayout=columns
+swapDownUp=true
+
+[Containments][180][ConfigDialog]
+DialogHeight=76
+DialogWidth=1920
+
 [Containments][180][Configuration]
 PreloadWeight=0
 
 [Containments][180][General]
-AppletOrder=181;182;183;184;194;195
+AppletOrder=181;182;183;200;184;194;195
 
 [Containments][185]
 activityId=
@@ -175,14 +221,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][185][Applets][197][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][185][Applets][198]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][185][Applets][198][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][185][Applets][198][Configuration][ConfigDialog]
 DialogHeight=600
@@ -190,6 +236,13 @@ DialogWidth=800
 
 [Containments][185][Applets][198][Shortcuts]
 global=
+
+[Containments][185][Applets][201]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][185][Applets][201][Configuration]
+PreloadWeight=0
 
 [Containments][185][ConfigDialog]
 DialogHeight=600
@@ -204,4 +257,4 @@ knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.pla
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/Sintering with H_省略_on Ores_A Review_HOLMES Ralph J.pdf,0,desktop:/钒钛磁铁矿烧结热力学分析.pdf,0,desktop:/铁矿粉烧结复合铁酸钙形成机理研究.pdf,0,desktop:/磁铁矿的无碳烧结.pdf,0,desktop:/译文_Hot Airflow Ignition with Microwave Heating for Iron Ore.docx,0,desktop:/Hot Airflow Ignition with Microwave Heating for Iron Ore.pdf,0,desktop:/基于相图分析铁酸钙流动性及烧结矿强度.pdf,0,desktop:/烧结-冷却-余热回收系统热力学分析.pdf,0,desktop:/铁酸钙粘结相流动性及其对烧结矿强度影响的试验研究.pdf,0

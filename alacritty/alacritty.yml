@@ -18,16 +18,16 @@ window:
   # Specified in number of columns/lines, not pixels.
   # If both are `0`, this setting is ignored.
   dimensions:
-    columns: 115
-    lines: 37
+    columns: 125
+    lines: 41
 
   # Window position (changes require restart)
   #
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
   position:
-    x: 0
-    y: 0
+    x: 250
+    y: 40
 
   # Window padding (changes require restart)
   #
@@ -46,6 +46,7 @@ window:
   #     - full: Borders and title bar
   #     - none: Neither borders nor title bar
   decorations: none
+  # decorations: full
 
   # Startup Mode (changes require restart)
   #
@@ -57,7 +58,8 @@ window:
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
   # startup_mode: Windowed
-  startup_mode: Fullscreen
+  # startup_mode: Fullscreen
+  startup_mode: Windowed
 
   # Window title
   title: alacritty
@@ -106,7 +108,7 @@ choices:
     bold_italic:
       family: SauceCodePro Nerd Font Mono
       style: Bold Italic
-    size: 10.0
+    size: 9.0
     offset:
       x: 0 #letter spacing
       y: 0 #line spacing
@@ -186,8 +188,8 @@ choices:
   ## If the bold, italic, bold_italic family is not specified,it will fall back to the value specified for the normal font.
 
 # font: *jetbrains-mono
-# font: *nerd-fonts-source-code-pro-mono
-font: *nerd-fonts-source-code-pro-medium
+font: *nerd-fonts-source-code-pro-mono
+# font: *nerd-fonts-source-code-pro-medium
 # font: *jetbrains-mono-medium
 
 schemes:
