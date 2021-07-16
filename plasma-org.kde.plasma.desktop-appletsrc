@@ -39,7 +39,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][179][General]
-positions=3,16,desktop:/Sintering with H_省略_on Ores_A Review_HOLMES Ralph J.pdf,2,2,desktop:/铁酸钙粘结相流动性及其对烧结矿强度影响的试验研究.pdf,0,0,desktop:/烧结-冷却-余热回收系统热力学分析.pdf,0,1,desktop:/基于相图分析铁酸钙流动性及烧结矿强度.pdf,0,2,desktop:/铁矿粉烧结复合铁酸钙形成机理研究.pdf,0,3,desktop:/磁铁矿的无碳烧结.pdf,2,6,desktop:/钒钛磁铁矿烧结热力学分析.pdf,0,4,desktop:/译文_Hot Airflow Ignition with Microwave Heating for Iron Ore.docx,0,5,desktop:/Hot Airflow Ignition with Microwave Heating for Iron Ore.pdf,1,6
+positions=3,16,desktop:/磁铁矿的无碳烧结.pdf,2,6,desktop:/Hot Airflow Ignition with Microwave Heating for Iron Ore.pdf,1,6,desktop:/译文_Hot Airflow Ignition with Microwave Heating for Iron Ore.docx,0,5,desktop:/Sintering with H_省略_on Ores_A Review_HOLMES Ralph J.pdf,2,2,desktop:/钒钛磁铁矿烧结热力学分析.pdf,0,4,desktop:/铁矿粉烧结复合铁酸钙形成机理研究.pdf,0,3,desktop:/基于相图分析铁酸钙流动性及烧结矿强度.pdf,0,2,desktop:/烧结-冷却-余热回收系统热力学分析.pdf,0,1,desktop:/铁酸钙粘结相流动性及其对烧结矿强度影响的试验研究.pdf,0,0
 sortMode=-1
 
 [Containments][179][Wallpaper][org.kde.image][General]
@@ -257,4 +257,4 @@ knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.pla
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Sintering with H_省略_on Ores_A Review_HOLMES Ralph J.pdf,0,desktop:/钒钛磁铁矿烧结热力学分析.pdf,0,desktop:/铁矿粉烧结复合铁酸钙形成机理研究.pdf,0,desktop:/磁铁矿的无碳烧结.pdf,0,desktop:/译文_Hot Airflow Ignition with Microwave Heating for Iron Ore.docx,0,desktop:/Hot Airflow Ignition with Microwave Heating for Iron Ore.pdf,0,desktop:/基于相图分析铁酸钙流动性及烧结矿强度.pdf,0,desktop:/烧结-冷却-余热回收系统热力学分析.pdf,0,desktop:/铁酸钙粘结相流动性及其对烧结矿强度影响的试验研究.pdf,0
+screenMapping=desktop:/钒钛磁铁矿烧结热力学分析.pdf,0,desktop:/基于相图分析铁酸钙流动性及烧结矿强度.pdf,0,desktop:/烧结-冷却-余热回收系统热力学分析.pdf,0,desktop:/译文_Hot Airflow Ignition with Microwave Heating for Iron Ore.docx,0,desktop:/Sintering with H_省略_on Ores_A Review_HOLMES Ralph J.pdf,0,desktop:/铁酸钙粘结相流动性及其对烧结矿强度影响的试验研究.pdf,0,desktop:/磁铁矿的无碳烧结.pdf,0,desktop:/铁矿粉烧结复合铁酸钙形成机理研究.pdf,0,desktop:/Hot Airflow Ignition with Microwave Heating for Iron Ore.pdf,0

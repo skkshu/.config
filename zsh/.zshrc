@@ -15,9 +15,9 @@ source $ZSH/oh-my-zsh.sh #if I put this line after vi mode, or do not have this 
 source $XDG_CONFIG_HOME/zsh/vi-mode.zsh
 source $XDG_CONFIG_HOME/zsh/alias.zsh
 
-tf(){
-	t -f $1
-}
+# tf(){
+# 	t -f $1
+# }
 
 #[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx
 # export PS1=" $PS1"'[$(t | wc -l | sed -e"s/ *//")]'
